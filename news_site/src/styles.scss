@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('/news_site/public/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+app-root {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    position: relative;
+    padding: 20px 50px;
+}
+
+p {
+    font-size: 15px;
+}

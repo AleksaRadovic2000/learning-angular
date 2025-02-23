@@ -1,0 +1,17 @@
+<div class="container row no-wrap overflow gap-2">
+    <app-main-new class="item1" 
+        [news]="this.mainNews"
+        ></app-main-new>
+    <div class="container column aside item2">
+        <h1>New</h1>
+        <div *ngFor="let aside of asidenews">
+            <app-aside-new [news]="aside"></app-aside-new>
+            <hr>
+        </div>
+    </div>
+</div>
+<div class="container row no-wrap bottom">
+    <div *ngFor="let bottom of bottomnews">
+    <app-bottom-new [news]="bottom"></app-bottom-new>
+    </div>
+</div>

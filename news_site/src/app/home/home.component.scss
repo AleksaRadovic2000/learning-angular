@@ -1,0 +1,39 @@
+.aside {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.gap-2 {
+    gap: 1rem;
+}
+
+.overflow {
+    overflow:hidden;
+}
+
+.item1 {
+    width: 60%;
+}
+.item2 {
+    flex-grow: 1;
+}
+
+hr {
+    width: 100%;
+    background-color: hsl(36, 100%, 99%);
+}
+
+h1 {
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+    padding: 5px 5px;
+}
+.bottom {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    gap: 2rem
+}

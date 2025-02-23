@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    width: 100%;
+    gap: 2rem
+}
+.justify {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+img {
+    width: 100%;
+    grid-column: 1/span 2;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+#readmore {
+    background-color: hsl(5, 85%, 63%);
+    width: 40%;
+    color: hsl(240, 100%, 5%);
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+
+#readmore:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+div div {
+    padding: 10px 10px;
+}
